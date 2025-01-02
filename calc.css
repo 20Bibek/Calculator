@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+}
+
+.container2{
+    width: 70vh;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    padding: 20px;
+    border-radius: 16px;
+    background: rgb(79, 113, 249);
+
+}
+
+.container2>#inputdisplay{
+    width: 490px;
+    height: 150px;
+    border: 5px solid #fff;
+    border-radius: 20px;
+    padding: 24px;
+    margin: 20px;
+    background: transparent;
+    font-size: 40px;
+    text-align: right;
+    color: #000;
+}
+
+.buttons button{
+    border: none;
+    width: 100px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: #1919f7;
+    color: #fff;
+    font-size: 20px;
+    box-shadow: 0 5px 0 5px rgb(255, 255, 255);
+    cursor: pointer;
+    transition: all 0.1s;
+    
+}
+.buttons button:active {
+    transform: translateY(4px); 
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.buttons>.fun{
+    background-color:  #1919f7;
+    color:#fff ;
+    box-shadow: 0 5px 0 5px greenyellow;
+}
+#equal{
+    background-color: orangered;
+    color: #fff;
+}
+
+
+
+
+
+
+
