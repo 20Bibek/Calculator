@@ -24,7 +24,7 @@ body{
     border: none;
     padding: 20px;
     border-radius: 16px;
-    background: rgb(79, 113, 249);
+    background: rgba(117, 178, 137, 0.676);
 
 }
 
@@ -47,7 +47,7 @@ body{
     height: 60px;
     margin: 10px;
     border-radius: 20px;
-    background-color: #1919f7;
+    background-color: #65c270;
     color: #fff;
     font-size: 20px;
     box-shadow: 0 5px 0 5px rgb(255, 255, 255);
@@ -61,9 +61,9 @@ body{
 }
 
 .buttons>.fun{
-    background-color:  #1919f7;
+    background-color:  #5840ac;
     color:#fff ;
-    box-shadow: 0 5px 0 5px greenyellow;
+    box-shadow: 0 5px 0 5px rgb(12, 23, 109);
 }
 #equal{
     background-color: orangered;
